@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #860B27;
+}
+.header{
+    text-align: center;
+    background-image: url("../IMAGENES/frutas2.jpg");
+    background-size: contain;
+    height: 200px;  
+}
+.header h1{ 
+    background: #82b3dc;
+    font-size: 50px;
+    padding: 15px ;
+    display: inline-block;
+    box-shadow:0px 0px 20px #860B27; 
+    margin: 50px 0;
+}
+
+.menu {
+    padding: 20px;
+}
+
+.menucont{
+    width: fit-content;
+    margin: auto;
+}
+
+.menuitem{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 90px;
+}
+
+.menu li{
+    padding: 5px;
+    display: inline-block;
+    background-color: #29E6ED;
+    border-radius: 10px;
+    border: 2px solid greenyellow;
+    text-align: center;
+    text-align: center;
+    font-size: 25px;
+    width: 180px;
+}
+
+.menu li:hover{
+    background-color: cornflowerblue;
+}
+
+.sgaleria{
+    width: fit-content;
+    margin:auto;
+}
+.imagen {
+    width: 320px;
+    transition: transform .3s ease-in-out;
+    margin: 25px;
+}
+.imagen:hover {
+    transform: scale(2);
+}
+.contenedor{
+    background-color: #F5F0ED;
+    max-width: 1000px;
+    margin: 20px auto;
+    box-shadow: 0 0 black;
+    padding: 0 8px 0 10px;
+}
+.seccion {
+    margin-top: 20px;
+}
+section h1{
+    padding: 5px 0 5px 40px;
+}
+.tablau{
+    text-align: center;
+}
+a {
+    color: black;
+}
+
+p {
+    color: rgb(83, 32, 167);
+    font-size: 18px;
+}
+.tabla, .tabla th, .tabla td {
+    border: 2px solid grey;
+    color: black; 
+    border-collapse: collapse;
+    padding: 5px 5px 10px 45px;
+}
+.tabla tr:hover {
+    background-color: rgb(158, 103, 246);
+}
+.foonter {
+    background-color: #29E6ED;
+    padding: 25px;
+}
+.fin{
+    text-align: center;
+    font-size: 15px;
+}
+.footercontac{
+    margin: 10px ;
+    text-align: center;
+}
+.footercontac a{
+    color: #860B27;
+    display: block;
+}
